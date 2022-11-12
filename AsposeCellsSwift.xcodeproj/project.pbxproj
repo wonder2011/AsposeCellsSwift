@@ -78,8 +78,7 @@
 		F9323A6A29203FB500EEF1C6 = {
 			isa = PBXGroup;
 			children = (
-				F9323AA82920445000EEF1C6 /* Enums */,
-				F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */,
+				F9323ACB292057B700EEF1C6 /* AsposeCellsSwift */,
 				F9323A7629203FB500EEF1C6 /* AsposeCellsSwift */,
 				F9323A8229203FB500EEF1C6 /* AsposeCellsSwiftTests */,
 				F9323A932920403E00EEF1C6 /* AsposeCellsSwiftExamples */,
@@ -133,7 +132,18 @@
 			children = (
 				F9323AA92920445D00EEF1C6 /* CellValueType.swift */,
 			);
-			path = Enums;
+			name = Enums;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F9323ACB292057B700EEF1C6 /* AsposeCellsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F9323AA82920445000EEF1C6 /* Enums */,
+				F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */,
+			);
+			name = AsposeCellsSwift;
+			path = Enums/AsposeCellsSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
