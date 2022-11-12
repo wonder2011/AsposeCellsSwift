@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: AsposeCellsSwift.xcodeproj
+scheme: AsposeCellsSwift
+output_directory: reports
+ignore:
+  - SwiftyLibTests/*
