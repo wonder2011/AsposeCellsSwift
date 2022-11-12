@@ -17,8 +17,8 @@
 		F9323A9C2920403E00EEF1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9A2920403E00EEF1C6 /* Main.storyboard */; };
 		F9323A9E2920404100EEF1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9D2920404100EEF1C6 /* Assets.xcassets */; };
 		F9323AA12920404100EEF1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9F2920404100EEF1C6 /* LaunchScreen.storyboard */; };
-		F9323AA72920441600EEF1C6 /* AsposeCellsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */; };
-		F9323AAA2920445D00EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323AA92920445D00EEF1C6 /* CellValueType.swift */; };
+		F9323AD02920624900EEF1C6 /* AsposeCellsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323ACF2920624900EEF1C6 /* AsposeCellsSwift.swift */; };
+		F9323AD22920625200EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323AD12920625200EEF1C6 /* CellValueType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,8 @@
 		F9323A9D2920404100EEF1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9323AA02920404100EEF1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9323AA22920404100EEF1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsposeCellsSwift.swift; sourceTree = "<group>"; };
-		F9323AA92920445D00EEF1C6 /* CellValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellValueType.swift; sourceTree = "<group>"; };
+		F9323ACF2920624900EEF1C6 /* AsposeCellsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsposeCellsSwift.swift; sourceTree = "<group>"; };
+		F9323AD12920625200EEF1C6 /* CellValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellValueType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,7 @@
 		F9323A6A29203FB500EEF1C6 = {
 			isa = PBXGroup;
 			children = (
+				F9323AD4292062F300EEF1C6 /* AsposeCellsFiles */,
 				F9323ACB292057B700EEF1C6 /* AsposeCellsSwift */,
 				F9323A7629203FB500EEF1C6 /* AsposeCellsSwift */,
 				F9323A8229203FB500EEF1C6 /* AsposeCellsSwiftTests */,
@@ -127,31 +128,21 @@
 			path = AsposeCellsSwiftExamples;
 			sourceTree = "<group>";
 		};
-		F9323AA82920445000EEF1C6 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				F9323AA92920445D00EEF1C6 /* CellValueType.swift */,
-			);
-			name = Enums;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		F9323ACB292057B700EEF1C6 /* AsposeCellsSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F9323ACC2920580B00EEF1C6 /* Exclude */,
-				F9323AA82920445000EEF1C6 /* Enums */,
-				F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */,
 			);
 			name = AsposeCellsSwift;
 			path = Enums/AsposeCellsSwift;
 			sourceTree = "<group>";
 		};
-		F9323ACC2920580B00EEF1C6 /* Exclude */ = {
+		F9323AD4292062F300EEF1C6 /* AsposeCellsFiles */ = {
 			isa = PBXGroup;
 			children = (
+				F9323ACF2920624900EEF1C6 /* AsposeCellsSwift.swift */,
+				F9323AD12920625200EEF1C6 /* CellValueType.swift */,
 			);
-			path = Exclude;
+			path = AsposeCellsFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9323AA72920441600EEF1C6 /* AsposeCellsSwift.swift in Sources */,
+				F9323AD02920624900EEF1C6 /* AsposeCellsSwift.swift in Sources */,
 				F9323A7929203FB500EEF1C6 /* AsposeCellsSwift.docc in Sources */,
-				F9323AAA2920445D00EEF1C6 /* CellValueType.swift in Sources */,
+				F9323AD22920625200EEF1C6 /* CellValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
