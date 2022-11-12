@@ -11,6 +11,14 @@
 		F9323A7F29203FB500EEF1C6 /* AsposeCellsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9323A7429203FB500EEF1C6 /* AsposeCellsSwift.framework */; };
 		F9323A8429203FB500EEF1C6 /* AsposeCellsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323A8329203FB500EEF1C6 /* AsposeCellsSwiftTests.swift */; };
 		F9323A8529203FB500EEF1C6 /* AsposeCellsSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F9323A7729203FB500EEF1C6 /* AsposeCellsSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9323A952920403E00EEF1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323A942920403E00EEF1C6 /* AppDelegate.swift */; };
+		F9323A972920403E00EEF1C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323A962920403E00EEF1C6 /* SceneDelegate.swift */; };
+		F9323A992920403E00EEF1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323A982920403E00EEF1C6 /* ViewController.swift */; };
+		F9323A9C2920403E00EEF1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9A2920403E00EEF1C6 /* Main.storyboard */; };
+		F9323A9E2920404100EEF1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9D2920404100EEF1C6 /* Assets.xcassets */; };
+		F9323AA12920404100EEF1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9323A9F2920404100EEF1C6 /* LaunchScreen.storyboard */; };
+		F9323AA72920441600EEF1C6 /* AsposeCellsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */; };
+		F9323AAA2920445D00EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323AA92920445D00EEF1C6 /* CellValueType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,16 @@
 		F9323A7829203FB500EEF1C6 /* AsposeCellsSwift.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AsposeCellsSwift.docc; sourceTree = "<group>"; };
 		F9323A7E29203FB500EEF1C6 /* AsposeCellsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsposeCellsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9323A8329203FB500EEF1C6 /* AsposeCellsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsposeCellsSwiftTests.swift; sourceTree = "<group>"; };
+		F9323A922920403E00EEF1C6 /* AsposeCellsSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsposeCellsSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9323A942920403E00EEF1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9323A962920403E00EEF1C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9323A982920403E00EEF1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9323A9B2920403E00EEF1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9323A9D2920404100EEF1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9323AA02920404100EEF1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9323AA22920404100EEF1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsposeCellsSwift.swift; sourceTree = "<group>"; };
+		F9323AA92920445D00EEF1C6 /* CellValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellValueType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +65,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9323A8F2920403E00EEF1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F9323A6A29203FB500EEF1C6 = {
 			isa = PBXGroup;
 			children = (
+				F9323AA82920445000EEF1C6 /* Enums */,
+				F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */,
 				F9323A7629203FB500EEF1C6 /* AsposeCellsSwift */,
 				F9323A8229203FB500EEF1C6 /* AsposeCellsSwiftTests */,
+				F9323A932920403E00EEF1C6 /* AsposeCellsSwiftExamples */,
 				F9323A7529203FB500EEF1C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +92,7 @@
 			children = (
 				F9323A7429203FB500EEF1C6 /* AsposeCellsSwift.framework */,
 				F9323A7E29203FB500EEF1C6 /* AsposeCellsSwiftTests.xctest */,
+				F9323A922920403E00EEF1C6 /* AsposeCellsSwiftExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +112,28 @@
 				F9323A8329203FB500EEF1C6 /* AsposeCellsSwiftTests.swift */,
 			);
 			path = AsposeCellsSwiftTests;
+			sourceTree = "<group>";
+		};
+		F9323A932920403E00EEF1C6 /* AsposeCellsSwiftExamples */ = {
+			isa = PBXGroup;
+			children = (
+				F9323A942920403E00EEF1C6 /* AppDelegate.swift */,
+				F9323A962920403E00EEF1C6 /* SceneDelegate.swift */,
+				F9323A982920403E00EEF1C6 /* ViewController.swift */,
+				F9323A9A2920403E00EEF1C6 /* Main.storyboard */,
+				F9323A9D2920404100EEF1C6 /* Assets.xcassets */,
+				F9323A9F2920404100EEF1C6 /* LaunchScreen.storyboard */,
+				F9323AA22920404100EEF1C6 /* Info.plist */,
+			);
+			path = AsposeCellsSwiftExamples;
+			sourceTree = "<group>";
+		};
+		F9323AA82920445000EEF1C6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F9323AA92920445D00EEF1C6 /* CellValueType.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +186,23 @@
 			productReference = F9323A7E29203FB500EEF1C6 /* AsposeCellsSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F9323A912920403E00EEF1C6 /* AsposeCellsSwiftExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9323AA32920404100EEF1C6 /* Build configuration list for PBXNativeTarget "AsposeCellsSwiftExamples" */;
+			buildPhases = (
+				F9323A8E2920403E00EEF1C6 /* Sources */,
+				F9323A8F2920403E00EEF1C6 /* Frameworks */,
+				F9323A902920403E00EEF1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsposeCellsSwiftExamples;
+			productName = AsposeCellsSwiftExamples;
+			productReference = F9323A922920403E00EEF1C6 /* AsposeCellsSwiftExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +217,9 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					F9323A7D29203FB500EEF1C6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F9323A912920403E00EEF1C6 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -168,6 +239,7 @@
 			targets = (
 				F9323A7329203FB500EEF1C6 /* AsposeCellsSwift */,
 				F9323A7D29203FB500EEF1C6 /* AsposeCellsSwiftTests */,
+				F9323A912920403E00EEF1C6 /* AsposeCellsSwiftExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +259,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9323A902920403E00EEF1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9323AA12920404100EEF1C6 /* LaunchScreen.storyboard in Resources */,
+				F9323A9E2920404100EEF1C6 /* Assets.xcassets in Resources */,
+				F9323A9C2920403E00EEF1C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9323AA72920441600EEF1C6 /* AsposeCellsSwift.swift in Sources */,
 				F9323A7929203FB500EEF1C6 /* AsposeCellsSwift.docc in Sources */,
+				F9323AAA2920445D00EEF1C6 /* CellValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +287,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9323A8429203FB500EEF1C6 /* AsposeCellsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9323A8E2920403E00EEF1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9323A992920403E00EEF1C6 /* ViewController.swift in Sources */,
+				F9323A952920403E00EEF1C6 /* AppDelegate.swift in Sources */,
+				F9323A972920403E00EEF1C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +309,25 @@
 			targetProxy = F9323A8029203FB500EEF1C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9323A9A2920403E00EEF1C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9323A9B2920403E00EEF1C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9323A9F2920404100EEF1C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9323AA02920404100EEF1C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9323A8629203FB500EEF1C6 /* Debug */ = {
@@ -394,6 +507,7 @@
 		F9323A8C29203FB500EEF1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +523,7 @@
 		F9323A8D29203FB500EEF1C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +531,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iWonder.AsposeCellsSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9323AA42920404100EEF1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsposeCellsSwiftExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iWonder.AsposeCellsSwiftExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9323AA52920404100EEF1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsposeCellsSwiftExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iWonder.AsposeCellsSwiftExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +616,15 @@
 			buildConfigurations = (
 				F9323A8C29203FB500EEF1C6 /* Debug */,
 				F9323A8D29203FB500EEF1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9323AA32920404100EEF1C6 /* Build configuration list for PBXNativeTarget "AsposeCellsSwiftExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9323AA42920404100EEF1C6 /* Debug */,
+				F9323AA52920404100EEF1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
