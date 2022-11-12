@@ -139,11 +139,19 @@
 		F9323ACB292057B700EEF1C6 /* AsposeCellsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F9323ACC2920580B00EEF1C6 /* Exclude */,
 				F9323AA82920445000EEF1C6 /* Enums */,
 				F9323AA62920441600EEF1C6 /* AsposeCellsSwift.swift */,
 			);
 			name = AsposeCellsSwift;
 			path = Enums/AsposeCellsSwift;
+			sourceTree = "<group>";
+		};
+		F9323ACC2920580B00EEF1C6 /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exclude;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
