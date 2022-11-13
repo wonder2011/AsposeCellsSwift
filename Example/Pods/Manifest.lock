@@ -1,0 +1,16 @@
+PODS:
+  - AsposeCellsSwift (0.1.0)
+
+DEPENDENCIES:
+  - AsposeCellsSwift (from `../`)
+
+EXTERNAL SOURCES:
+  AsposeCellsSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AsposeCellsSwift: 99558b2e90816224f5d559261b27689716e9bd5b
+
+PODFILE CHECKSUM: 806b10323646e06620a0e500eaf6a2b6eafaaf45
+
+COCOAPODS: 1.11.3

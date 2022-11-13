@@ -1,0 +1,6 @@
+framework module Pods_AsposeCellsSwift_Tests {
+  umbrella header "Pods-AsposeCellsSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

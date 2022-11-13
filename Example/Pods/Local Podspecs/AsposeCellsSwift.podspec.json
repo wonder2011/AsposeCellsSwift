@@ -1,0 +1,22 @@
+{
+  "name": "AsposeCellsSwift",
+  "version": "0.1.0",
+  "summary": "A short description of AsposeCellsSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wonder2011/AsposeCellsSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wonder2011": "fidelhernandezsalazar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/wonder2011/AsposeCellsSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AsposeCellsSwift/Classes/**/*"
+}

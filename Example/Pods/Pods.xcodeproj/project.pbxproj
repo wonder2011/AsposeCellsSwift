@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0594437E19A899FAE402DE28D1E6F541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0F3BE6C1D86D48B12B54404F290CD202 /* Pods-AsposeCellsSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E2B3F5D165FF6F4039EFA99D2E1B05 /* Pods-AsposeCellsSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC945BD5278DBBF99F69AD6408C3A39 /* Pods-AsposeCellsSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BAF1C9297ABE1D5E7EA93CF58861F6 /* Pods-AsposeCellsSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345ED15C0AF6D560F95267A5ED91A1E5 /* AsposeCellsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA13CFD15F38A0FDB561BD90962D097 /* AsposeCellsSwift.swift */; };
+		570FA1F9DA80FCDB8241667D50FFB4F8 /* Pods-AsposeCellsSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3733FBD3893E20450B0E73F15F138886 /* Pods-AsposeCellsSwift_Tests-dummy.m */; };
+		5A65F081118A3F74741CB514A807CA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		731A4E223DBE92A1DB413F3484469FF8 /* Pods-AsposeCellsSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A8D335E829D18D3FCA4EC99C0314C6 /* Pods-AsposeCellsSwift_Example-dummy.m */; };
+		772B1E04A5E62FED76676821FEBB3232 /* AsposeCellsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE957DEEA24CF69D3925C76BC527BC /* AsposeCellsSwift-dummy.m */; };
+		C00DB97C204A5686565974E09A15ED14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5F5DE314A84395E239C4DE2E8694624 /* AsposeCellsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D3C0D23E7A10DD1EB0B5878350A2A3 /* AsposeCellsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333506FB2A73FC0E476AE89617673992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21162BAE7E7CE6C16F32DC42A1C5E75;
+			remoteInfo = "Pods-AsposeCellsSwift_Example";
+		};
+		D18A1AC7E2F07797A8C337FF75144642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B102349AD189133E55EC02304479488;
+			remoteInfo = AsposeCellsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097379A4CCC0AEA15DCFCD77EE4CB60E /* Pods-AsposeCellsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AsposeCellsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BDCD1B449E1D9D0854C85A1537AE771 /* Pods-AsposeCellsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AsposeCellsSwift_Example.modulemap"; sourceTree = "<group>"; };
+		1FA2C4BBB67CA8D9828534FBA21DF1AA /* Pods-AsposeCellsSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AsposeCellsSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		2160D0BE3835836729B416B11625E809 /* Pods-AsposeCellsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AsposeCellsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2702BA90AEE67929893F15A100C1A25F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2A39466A494460312FF1C709EA04A675 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		31A8D335E829D18D3FCA4EC99C0314C6 /* Pods-AsposeCellsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AsposeCellsSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AsposeCellsSwift_Example"; path = Pods_AsposeCellsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3733FBD3893E20450B0E73F15F138886 /* Pods-AsposeCellsSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AsposeCellsSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		389BD648CFFF74BBDEC4455E7A89288D /* Pods-AsposeCellsSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AsposeCellsSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		4BCFDF78855C6B5CC86FEDA6265741E8 /* AsposeCellsSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AsposeCellsSwift; path = AsposeCellsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501C4D457D23F7F30C5014F94D0283EE /* AsposeCellsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AsposeCellsSwift.debug.xcconfig; sourceTree = "<group>"; };
+		5EE3DD834A9F18C3998675A683C32544 /* Pods-AsposeCellsSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AsposeCellsSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		603E463EE5DD897B6C499DF5262236D9 /* AsposeCellsSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AsposeCellsSwift-Info.plist"; sourceTree = "<group>"; };
+		61728C97151B4336CD984EBFBC5CA5D7 /* AsposeCellsSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AsposeCellsSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61EB31D850D0B99BF0B939AEB476F1A8 /* Pods-AsposeCellsSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AsposeCellsSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E2B3F5D165FF6F4039EFA99D2E1B05 /* Pods-AsposeCellsSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AsposeCellsSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		78BEA22C0C04B2205D35EAFFCBC40F07 /* Pods-AsposeCellsSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AsposeCellsSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D3C0D23E7A10DD1EB0B5878350A2A3 /* AsposeCellsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AsposeCellsSwift-umbrella.h"; sourceTree = "<group>"; };
+		98BAF1C9297ABE1D5E7EA93CF58861F6 /* Pods-AsposeCellsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AsposeCellsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		99A4D9B246D5CF48A78A1D2075068619 /* Pods-AsposeCellsSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AsposeCellsSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9BA13CFD15F38A0FDB561BD90962D097 /* AsposeCellsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsposeCellsSwift.swift; path = AsposeCellsSwift/Classes/AsposeCellsSwift.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C0C633081CBC8B4CC18125BC7421DA /* Pods-AsposeCellsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AsposeCellsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ABBE957DEEA24CF69D3925C76BC527BC /* AsposeCellsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AsposeCellsSwift-dummy.m"; sourceTree = "<group>"; };
+		B4E77BA15755CCC095E8655D04C4202E /* Pods-AsposeCellsSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AsposeCellsSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDAD055374213BF1A7A28F3D60EF3A50 /* Pods-AsposeCellsSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AsposeCellsSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C766059B0088B17E987CB88150058AEC /* AsposeCellsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AsposeCellsSwift-prefix.pch"; sourceTree = "<group>"; };
+		CACD2047B1AB4A05F3F47AC4B0D77931 /* AsposeCellsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AsposeCellsSwift.modulemap; sourceTree = "<group>"; };
+		CBBE2999EB23A4246C79F6D988A6438E /* Pods-AsposeCellsSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AsposeCellsSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AsposeCellsSwift_Tests"; path = Pods_AsposeCellsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE53F1795F4AE3E31229F9437D27F8A /* AsposeCellsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AsposeCellsSwift.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C97D9102B146A278CB4CC40694DBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A65F081118A3F74741CB514A807CA2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA46D26207ED3AD69468C745A4E1A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0594437E19A899FAE402DE28D1E6F541 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB52B937044D2FD60B80D0ADB42D0172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00DB97C204A5686565974E09A15ED14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F69675EA051CF7147736A34608A4C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEBCF1173A006E12F67FC60E8F247CFE /* AsposeCellsSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A61DAC26A8EF4AB81038B100C6FCC92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACD2047B1AB4A05F3F47AC4B0D77931 /* AsposeCellsSwift.modulemap */,
+				ABBE957DEEA24CF69D3925C76BC527BC /* AsposeCellsSwift-dummy.m */,
+				603E463EE5DD897B6C499DF5262236D9 /* AsposeCellsSwift-Info.plist */,
+				C766059B0088B17E987CB88150058AEC /* AsposeCellsSwift-prefix.pch */,
+				91D3C0D23E7A10DD1EB0B5878350A2A3 /* AsposeCellsSwift-umbrella.h */,
+				501C4D457D23F7F30C5014F94D0283EE /* AsposeCellsSwift.debug.xcconfig */,
+				ECE53F1795F4AE3E31229F9437D27F8A /* AsposeCellsSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AsposeCellsSwift";
+			sourceTree = "<group>";
+		};
+		ADA05F547BE3D2B1CA4BA85F14630F04 /* Pods-AsposeCellsSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1BDCD1B449E1D9D0854C85A1537AE771 /* Pods-AsposeCellsSwift_Example.modulemap */,
+				5EE3DD834A9F18C3998675A683C32544 /* Pods-AsposeCellsSwift_Example-acknowledgements.markdown */,
+				CBBE2999EB23A4246C79F6D988A6438E /* Pods-AsposeCellsSwift_Example-acknowledgements.plist */,
+				31A8D335E829D18D3FCA4EC99C0314C6 /* Pods-AsposeCellsSwift_Example-dummy.m */,
+				99A4D9B246D5CF48A78A1D2075068619 /* Pods-AsposeCellsSwift_Example-frameworks.sh */,
+				389BD648CFFF74BBDEC4455E7A89288D /* Pods-AsposeCellsSwift_Example-Info.plist */,
+				73E2B3F5D165FF6F4039EFA99D2E1B05 /* Pods-AsposeCellsSwift_Example-umbrella.h */,
+				A5C0C633081CBC8B4CC18125BC7421DA /* Pods-AsposeCellsSwift_Example.debug.xcconfig */,
+				BDAD055374213BF1A7A28F3D60EF3A50 /* Pods-AsposeCellsSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-AsposeCellsSwift_Example";
+			path = "Target Support Files/Pods-AsposeCellsSwift_Example";
+			sourceTree = "<group>";
+		};
+		C16ED596E3352C1D7F977AB663E94AB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				61728C97151B4336CD984EBFBC5CA5D7 /* AsposeCellsSwift.podspec */,
+				2702BA90AEE67929893F15A100C1A25F /* LICENSE */,
+				2A39466A494460312FF1C709EA04A675 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C830B76FB63BD848014BA3DF372C3BC9 /* Pods-AsposeCellsSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1FA2C4BBB67CA8D9828534FBA21DF1AA /* Pods-AsposeCellsSwift_Tests.modulemap */,
+				78BEA22C0C04B2205D35EAFFCBC40F07 /* Pods-AsposeCellsSwift_Tests-acknowledgements.markdown */,
+				B4E77BA15755CCC095E8655D04C4202E /* Pods-AsposeCellsSwift_Tests-acknowledgements.plist */,
+				3733FBD3893E20450B0E73F15F138886 /* Pods-AsposeCellsSwift_Tests-dummy.m */,
+				61EB31D850D0B99BF0B939AEB476F1A8 /* Pods-AsposeCellsSwift_Tests-Info.plist */,
+				98BAF1C9297ABE1D5E7EA93CF58861F6 /* Pods-AsposeCellsSwift_Tests-umbrella.h */,
+				097379A4CCC0AEA15DCFCD77EE4CB60E /* Pods-AsposeCellsSwift_Tests.debug.xcconfig */,
+				2160D0BE3835836729B416B11625E809 /* Pods-AsposeCellsSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-AsposeCellsSwift_Tests";
+			path = "Target Support Files/Pods-AsposeCellsSwift_Tests";
+			sourceTree = "<group>";
+		};
+		C9E05B8899BB1E2D25DA1955031F4EBA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA05F547BE3D2B1CA4BA85F14630F04 /* Pods-AsposeCellsSwift_Example */,
+				C830B76FB63BD848014BA3DF372C3BC9 /* Pods-AsposeCellsSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CEBCF1173A006E12F67FC60E8F247CFE /* AsposeCellsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9BA13CFD15F38A0FDB561BD90962D097 /* AsposeCellsSwift.swift */,
+				C16ED596E3352C1D7F977AB663E94AB4 /* Pod */,
+				7A61DAC26A8EF4AB81038B100C6FCC92 /* Support Files */,
+			);
+			name = AsposeCellsSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				48F69675EA051CF7147736A34608A4C9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D75707137B95C2BFBE6B2EB0D2EBE135 /* Products */,
+				C9E05B8899BB1E2D25DA1955031F4EBA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75707137B95C2BFBE6B2EB0D2EBE135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFDF78855C6B5CC86FEDA6265741E8 /* AsposeCellsSwift */,
+				3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */,
+				E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2011E2B080D499E971AB4F00C33495EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC945BD5278DBBF99F69AD6408C3A39 /* Pods-AsposeCellsSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FE40D26845D050FE3CC95D099A1A38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3BE6C1D86D48B12B54404F290CD202 /* Pods-AsposeCellsSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2483DFD47D4632E384172BC49816826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F5DE314A84395E239C4DE2E8694624 /* AsposeCellsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B102349AD189133E55EC02304479488 /* AsposeCellsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B578710CC4FF802F7FFC5AC034D63162 /* Build configuration list for PBXNativeTarget "AsposeCellsSwift" */;
+			buildPhases = (
+				D2483DFD47D4632E384172BC49816826 /* Headers */,
+				51E0506763E67F010FEF932C4E12EBE1 /* Sources */,
+				15C97D9102B146A278CB4CC40694DBE2 /* Frameworks */,
+				6F4E4DBF65311C88280F4B66DC61F801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsposeCellsSwift;
+			productName = AsposeCellsSwift;
+			productReference = 4BCFDF78855C6B5CC86FEDA6265741E8 /* AsposeCellsSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		909EB5AF8D5B6706BBEE20C6E95C7E0F /* Pods-AsposeCellsSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF00855BA51E7D04647F8B21C9E8CAB /* Build configuration list for PBXNativeTarget "Pods-AsposeCellsSwift_Tests" */;
+			buildPhases = (
+				2011E2B080D499E971AB4F00C33495EB /* Headers */,
+				1B67E0A456B5D132DC34DF91B6D9E039 /* Sources */,
+				CB52B937044D2FD60B80D0ADB42D0172 /* Frameworks */,
+				3D2B6E34CFBF9648193059F98813D1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DDE38C862989D14F8A0C11DCEF96C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AsposeCellsSwift_Tests";
+			productName = Pods_AsposeCellsSwift_Tests;
+			productReference = E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D21162BAE7E7CE6C16F32DC42A1C5E75 /* Pods-AsposeCellsSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC0D3A6F04DD995BE40BE7548AE7331 /* Build configuration list for PBXNativeTarget "Pods-AsposeCellsSwift_Example" */;
+			buildPhases = (
+				D0FE40D26845D050FE3CC95D099A1A38 /* Headers */,
+				BC65D4F406D1F1245E5092DB40361DFE /* Sources */,
+				3FA46D26207ED3AD69468C745A4E1A43 /* Frameworks */,
+				EE3A713F805674B04DECD6C9B9AEC0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B80BE46C8F7CA5949F2C5D8F899BF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AsposeCellsSwift_Example";
+			productName = Pods_AsposeCellsSwift_Example;
+			productReference = 3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D75707137B95C2BFBE6B2EB0D2EBE135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B102349AD189133E55EC02304479488 /* AsposeCellsSwift */,
+				D21162BAE7E7CE6C16F32DC42A1C5E75 /* Pods-AsposeCellsSwift_Example */,
+				909EB5AF8D5B6706BBEE20C6E95C7E0F /* Pods-AsposeCellsSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2B6E34CFBF9648193059F98813D1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4E4DBF65311C88280F4B66DC61F801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3A713F805674B04DECD6C9B9AEC0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B67E0A456B5D132DC34DF91B6D9E039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570FA1F9DA80FCDB8241667D50FFB4F8 /* Pods-AsposeCellsSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E0506763E67F010FEF932C4E12EBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772B1E04A5E62FED76676821FEBB3232 /* AsposeCellsSwift-dummy.m in Sources */,
+				345ED15C0AF6D560F95267A5ED91A1E5 /* AsposeCellsSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65D4F406D1F1245E5092DB40361DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731A4E223DBE92A1DB413F3484469FF8 /* Pods-AsposeCellsSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1DDE38C862989D14F8A0C11DCEF96C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AsposeCellsSwift_Example";
+			target = D21162BAE7E7CE6C16F32DC42A1C5E75 /* Pods-AsposeCellsSwift_Example */;
+			targetProxy = 333506FB2A73FC0E476AE89617673992 /* PBXContainerItemProxy */;
+		};
+		F4B80BE46C8F7CA5949F2C5D8F899BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AsposeCellsSwift;
+			target = 6B102349AD189133E55EC02304479488 /* AsposeCellsSwift */;
+			targetProxy = D18A1AC7E2F07797A8C337FF75144642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B017E0AD16F5A3EBF430EB247E3578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501C4D457D23F7F30C5014F94D0283EE /* AsposeCellsSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift.modulemap";
+				PRODUCT_MODULE_NAME = AsposeCellsSwift;
+				PRODUCT_NAME = AsposeCellsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CEBF6D1A867D6F162D336723A66484F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE53F1795F4AE3E31229F9437D27F8A /* AsposeCellsSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AsposeCellsSwift/AsposeCellsSwift.modulemap";
+				PRODUCT_MODULE_NAME = AsposeCellsSwift;
+				PRODUCT_NAME = AsposeCellsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A2676F5E9EA92E2B4D47F29E72F2B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2160D0BE3835836729B416B11625E809 /* Pods-AsposeCellsSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AsposeCellsSwift_Tests/Pods-AsposeCellsSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AsposeCellsSwift_Tests/Pods-AsposeCellsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B70CD1BEF075A36A4E0F6F53508649D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAD055374213BF1A7A28F3D60EF3A50 /* Pods-AsposeCellsSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AsposeCellsSwift_Example/Pods-AsposeCellsSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AsposeCellsSwift_Example/Pods-AsposeCellsSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4B77226B9181ECE16D00EB07B44AEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097379A4CCC0AEA15DCFCD77EE4CB60E /* Pods-AsposeCellsSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AsposeCellsSwift_Tests/Pods-AsposeCellsSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AsposeCellsSwift_Tests/Pods-AsposeCellsSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6B3E2C55F6C787D68552CB7DDF0580D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C0C633081CBC8B4CC18125BC7421DA /* Pods-AsposeCellsSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AsposeCellsSwift_Example/Pods-AsposeCellsSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AsposeCellsSwift_Example/Pods-AsposeCellsSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF00855BA51E7D04647F8B21C9E8CAB /* Build configuration list for PBXNativeTarget "Pods-AsposeCellsSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B77226B9181ECE16D00EB07B44AEE6 /* Debug */,
+				5A2676F5E9EA92E2B4D47F29E72F2B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC0D3A6F04DD995BE40BE7548AE7331 /* Build configuration list for PBXNativeTarget "Pods-AsposeCellsSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B3E2C55F6C787D68552CB7DDF0580D /* Debug */,
+				B70CD1BEF075A36A4E0F6F53508649D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B578710CC4FF802F7FFC5AC034D63162 /* Build configuration list for PBXNativeTarget "AsposeCellsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B017E0AD16F5A3EBF430EB247E3578 /* Debug */,
+				4CEBF6D1A867D6F162D336723A66484F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
