@@ -1,8 +1,8 @@
 {
   "name": "AsposeCellsSwift",
   "version": "0.1.0",
-  "summary": "A short description of AsposeCellsSwift.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "AsposeCellsSwift library to manage Aspose.Cell Rest Api.",
+  "description": "This CocoaPods library helps you work with Aspose.Cells Cloud Rest Api.",
   "homepage": "https://github.com/wonder2011/AsposeCellsSwift",
   "license": {
     "type": "MIT",
@@ -15,8 +15,11 @@
     "git": "https://github.com/wonder2011/AsposeCellsSwift.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/wonderDeveloper",
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "AsposeCellsSwift/Classes/**/*"
+  "swift_versions": "5.2",
+  "source_files": "AsposeCellsSwift/Classes/**/*",
+  "swift_version": "5.2"
 }

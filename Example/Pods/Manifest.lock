@@ -1,16 +1,27 @@
 PODS:
+  - Alamofire (4.8.2)
+  - AsposeCellsCloud (21.7):
+    - Alamofire (~> 4.8.2)
   - AsposeCellsSwift (0.1.0)
 
 DEPENDENCIES:
+  - AsposeCellsCloud (~> 21.7)
   - AsposeCellsSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AsposeCellsCloud
 
 EXTERNAL SOURCES:
   AsposeCellsSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AsposeCellsSwift: 99558b2e90816224f5d559261b27689716e9bd5b
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AsposeCellsCloud: 6dfebe86dc2dfa0a6ec9a44d9f245586a31cdbd9
+  AsposeCellsSwift: 82c571a9551b2e250ee694996766dd3683c645f9
 
-PODFILE CHECKSUM: 806b10323646e06620a0e500eaf6a2b6eafaaf45
+PODFILE CHECKSUM: bf5cba0a36d56cd75da8768c97e359b92fecfd43
 
 COCOAPODS: 1.11.3
