@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = "5.2"
 
-  s.source_files = 'AsposeCellsSwift/Classes/**/*'
+  s.source_files = 'AsposeCellsSwift/**/*'
   
   # s.resource_bundles = {
   #   'AsposeCellsSwift' => ['AsposeCellsSwift/Assets/*.png']
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AsposeCellsCloud', '~> 21.7'
 end
