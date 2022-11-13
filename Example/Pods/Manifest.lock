@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AsposeCellsCloud: 6dfebe86dc2dfa0a6ec9a44d9f245586a31cdbd9
-  AsposeCellsSwift: 52ddd780abacbf88fe4116173727e73790dde4f6
+  AsposeCellsSwift: 3c99f65bda643e2d6ce913feee51b817b4682d80
 
 PODFILE CHECKSUM: bf5cba0a36d56cd75da8768c97e359b92fecfd43
 

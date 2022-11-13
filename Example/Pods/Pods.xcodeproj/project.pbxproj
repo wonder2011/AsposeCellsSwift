@@ -294,9 +294,6 @@
 		F5C7E9C832080BEAA0CA976E2551B346 /* AboveAverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D264979C88ADD450E4FBBF23EC61015 /* AboveAverage.swift */; };
 		F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4004656E360FD4B92DA4AFA5EFFD63 /* ParameterEncoding.swift */; };
 		F7ABE88D9B78974336F110D368D81802 /* TextureFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3AE1E57BCEE2DFFD6DC63C85D82AC /* TextureFill.swift */; };
-		F9323ADE2920897500EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323ADD2920897500EEF1C6 /* CellValueType.swift */; };
-		F9323ADF2920897500EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323ADD2920897500EEF1C6 /* CellValueType.swift */; };
-		F9323AE02920897500EEF1C6 /* CellValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9323ADD2920897500EEF1C6 /* CellValueType.swift */; };
 		F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E573A7032D51ACD19615F10600E4D730 /* DispatchQueue+Alamofire.swift */; };
 		F982A93EB25346A75F8ABC049B82697C /* ImportBatchDataOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACB04194BCE3D0CBCCAD3211DCCD08 /* ImportBatchDataOption.swift */; };
 		F9A428E6344279DAC0C848FD47138467 /* GradientFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE62784E5962B163FE7B911A4B00AD /* GradientFill.swift */; };
@@ -416,7 +413,7 @@
 		271638E3C949B26A8E1D265EC770BB68 /* AsposeCellsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsposeCellsSwift.swift; path = AsposeCellsSwift/Classes/AsposeCellsSwift.swift; sourceTree = "<group>"; };
 		2726DFAE36655E6DD5A2CABA9099B337 /* ConditionalFormattingResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalFormattingResponse.swift; path = AsposeCellsCloud/Swaggers/Models/ConditionalFormattingResponse.swift; sourceTree = "<group>"; };
 		27B9BF5C568594C5609FA5E1E552B7D3 /* ImportIntArrayOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImportIntArrayOption.swift; path = AsposeCellsCloud/Swaggers/Models/ImportIntArrayOption.swift; sourceTree = "<group>"; };
-		27BB6AF8A3B44B5F6280CA7AA529CCA6 /* AsposeCellsSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AsposeCellsSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27BB6AF8A3B44B5F6280CA7AA529CCA6 /* AsposeCellsSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AsposeCellsSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28479D1D88FAF81C7FDB96EDA395655A /* TextOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextOptions.swift; path = AsposeCellsCloud/Swaggers/Models/TextOptions.swift; sourceTree = "<group>"; };
 		2A6BE4CBFDE7B164275BAFDBD06FE8DE /* WorksheetResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WorksheetResponse.swift; path = AsposeCellsCloud/Swaggers/Models/WorksheetResponse.swift; sourceTree = "<group>"; };
 		2B675CA8B66DED30B8BBCDCD1AB1087B /* TextItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextItems.swift; path = AsposeCellsCloud/Swaggers/Models/TextItems.swift; sourceTree = "<group>"; };
@@ -430,7 +427,7 @@
 		31A8D335E829D18D3FCA4EC99C0314C6 /* Pods-AsposeCellsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AsposeCellsSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		31AE27742FCE4DFAEF4AD2BA62D72D2A /* AsposeCellsCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AsposeCellsCloud-dummy.m"; sourceTree = "<group>"; };
 		3215C7887C5F4AB590424DFEF2ED89D9 /* ShapeOperateParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeOperateParameter.swift; path = AsposeCellsCloud/Swaggers/Models/ShapeOperateParameter.swift; sourceTree = "<group>"; };
-		3369B961AD4FD138C38B66F8B63DBE1C /* Pods_AsposeCellsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsposeCellsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AsposeCellsSwift_Example"; path = Pods_AsposeCellsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3372BE283B9CC99655C1D886951622D2 /* WorkbookProtectionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WorkbookProtectionRequest.swift; path = AsposeCellsCloud/Swaggers/Models/WorkbookProtectionRequest.swift; sourceTree = "<group>"; };
 		33B6F2915B46AD8DF3185CFEE5E4AC40 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		343FB4A474F17809CD80FBC7F4DAD229 /* StorageExist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageExist.swift; path = AsposeCellsCloud/Swaggers/Models/StorageExist.swift; sourceTree = "<group>"; };
@@ -547,7 +544,7 @@
 		8DAF419CF1F304E5FD5C9069B329D92B /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = AsposeCellsCloud/Swaggers/Models.swift; sourceTree = "<group>"; };
 		9014ED82632C5FBC89AC0E2DA83896A4 /* Columns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Columns.swift; path = AsposeCellsCloud/Swaggers/Models/Columns.swift; sourceTree = "<group>"; };
 		90CBFF3A06044A30B552EB72FFC98FD6 /* Hyperlink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperlink.swift; path = AsposeCellsCloud/Swaggers/Models/Hyperlink.swift; sourceTree = "<group>"; };
-		91928965A12000CDFAFAF9E5D884B3C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91928965A12000CDFAFAF9E5D884B3C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9356FFD789A94CBEFD16B5CE53D8036B /* AsposeCellsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AsposeCellsSwift-umbrella.h"; sourceTree = "<group>"; };
 		9527578BA493A1EC00D8B126526854CE /* HorizontalPageBreaks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalPageBreaks.swift; path = AsposeCellsCloud/Swaggers/Models/HorizontalPageBreaks.swift; sourceTree = "<group>"; };
 		963C9DBCCA2881A01ABDCBC237BC1241 /* ImportOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImportOption.swift; path = AsposeCellsCloud/Swaggers/Models/ImportOption.swift; sourceTree = "<group>"; };
@@ -557,7 +554,7 @@
 		99E583E044D814949F0822FFC7F38B9A /* AsposeCellsCloud */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AsposeCellsCloud; path = AsposeCellsCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF447F9AE4ADC2F1EACD498B4934547 /* ConditionalFormattingIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalFormattingIcon.swift; path = AsposeCellsCloud/Swaggers/Models/ConditionalFormattingIcon.swift; sourceTree = "<group>"; };
 		9C8BD8617C302352E1C992CCF366AE55 /* RowResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowResponse.swift; path = AsposeCellsCloud/Swaggers/Models/RowResponse.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5379245B7EC9520710516391571E03 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		9E6E2EE35028880E95344EC2FAA6A60E /* PageSetupOperateParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageSetupOperateParameter.swift; path = AsposeCellsCloud/Swaggers/Models/PageSetupOperateParameter.swift; sourceTree = "<group>"; };
 		9EFD1990C9CFA28C39850B418711B1B9 /* AutoShapes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoShapes.swift; path = AsposeCellsCloud/Swaggers/Models/AutoShapes.swift; sourceTree = "<group>"; };
@@ -575,7 +572,7 @@
 		A5C0C633081CBC8B4CC18125BC7421DA /* Pods-AsposeCellsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AsposeCellsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A5C536B1DA52327E8BAF285E1272A667 /* PdfSaveOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PdfSaveOptions.swift; path = AsposeCellsCloud/Swaggers/Models/PdfSaveOptions.swift; sourceTree = "<group>"; };
 		A63383CDAD4D9946A7D5A3F09AD30A60 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		A691C4A07FB62EFC58134DA4F8C894F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A691C4A07FB62EFC58134DA4F8C894F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A6A694B03FFB442CDDF609DE0552328C /* FillFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillFormat.swift; path = AsposeCellsCloud/Swaggers/Models/FillFormat.swift; sourceTree = "<group>"; };
 		A7382A6290E74FCC80B7419398F6AE6A /* MultipleFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleFilter.swift; path = AsposeCellsCloud/Swaggers/Models/MultipleFilter.swift; sourceTree = "<group>"; };
 		A947DA5219DA9250CBF53E130B660EB2 /* ObjectExist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectExist.swift; path = AsposeCellsCloud/Swaggers/Models/ObjectExist.swift; sourceTree = "<group>"; };
@@ -651,7 +648,7 @@
 		E13FDE96AE316959564FE1F14F8065FD /* WorkbookResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WorkbookResponse.swift; path = AsposeCellsCloud/Swaggers/Models/WorkbookResponse.swift; sourceTree = "<group>"; };
 		E49659B7D3096E77191BA78058D7861B /* SortKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SortKey.swift; path = AsposeCellsCloud/Swaggers/Models/SortKey.swift; sourceTree = "<group>"; };
 		E4ACB04194BCE3D0CBCCAD3211DCCD08 /* ImportBatchDataOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImportBatchDataOption.swift; path = AsposeCellsCloud/Swaggers/Models/ImportBatchDataOption.swift; sourceTree = "<group>"; };
-		E4C4AE45C9696E92452BC68ECE283FF5 /* Pods_AsposeCellsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsposeCellsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AsposeCellsSwift_Tests"; path = Pods_AsposeCellsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E573A7032D51ACD19615F10600E4D730 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		E57F39936562C0931BB5D7B99637814D /* ChartArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartArea.swift; path = AsposeCellsCloud/Swaggers/Models/ChartArea.swift; sourceTree = "<group>"; };
 		E5D0655B257F689305DBB3F7E8077A1F /* ListColumn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListColumn.swift; path = AsposeCellsCloud/Swaggers/Models/ListColumn.swift; sourceTree = "<group>"; };
@@ -678,7 +675,6 @@
 		F5B8D1E136C865707A2E15AF8C75D61D /* PivotTablesResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PivotTablesResponse.swift; path = AsposeCellsCloud/Swaggers/Models/PivotTablesResponse.swift; sourceTree = "<group>"; };
 		F6557C39B19BAB30A0BDA47C615336EC /* CommentResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentResponse.swift; path = AsposeCellsCloud/Swaggers/Models/CommentResponse.swift; sourceTree = "<group>"; };
 		F89EFA6F5F53A5FF39E47B23A69AF9B4 /* ImportDataTaskParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImportDataTaskParameter.swift; path = AsposeCellsCloud/Swaggers/Models/ImportDataTaskParameter.swift; sourceTree = "<group>"; };
-		F9323ADD2920897500EEF1C6 /* CellValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellValueType.swift; sourceTree = "<group>"; };
 		F9BA815D6371DD3EF114E1C5D4560405 /* OdsSaveOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OdsSaveOptions.swift; path = AsposeCellsCloud/Swaggers/Models/OdsSaveOptions.swift; sourceTree = "<group>"; };
 		FADE30AED0DBBB0C92D87D5EDCD4ADA2 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		FC03962CD368A69A373F2DE79A78EAEE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -746,8 +742,8 @@
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
 				99E583E044D814949F0822FFC7F38B9A /* AsposeCellsCloud */,
 				4BCFDF78855C6B5CC86FEDA6265741E8 /* AsposeCellsSwift */,
-				3369B961AD4FD138C38B66F8B63DBE1C /* Pods_AsposeCellsSwift_Example.framework */,
-				E4C4AE45C9696E92452BC68ECE283FF5 /* Pods_AsposeCellsSwift_Tests.framework */,
+				3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */,
+				E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -774,6 +770,7 @@
 				83AD0C3E145B490EFBB26C22C6EB6864 /* Validation.swift */,
 				8F70E157622EAA96CA59881B295ACBF1 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1045,6 +1042,7 @@
 				14901A4157D9CC5426A306862646D97B /* XpsSaveOptions.swift */,
 				844AF08DB280B9FAABE31DEE13592471 /* Support Files */,
 			);
+			name = AsposeCellsCloud;
 			path = AsposeCellsCloud;
 			sourceTree = "<group>";
 		};
@@ -1091,7 +1089,6 @@
 		77A0296F2EC60D065EEA5855124AE0F0 /* AsposeCellsSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F9323ADC2920895600EEF1C6 /* Enums */,
 				271638E3C949B26A8E1D265EC770BB68 /* AsposeCellsSwift.swift */,
 				00B903B960845933955719C0D58AB970 /* Pod */,
 				41EC122D885CD8F3B1439A10701EF4B4 /* Support Files */,
@@ -1192,14 +1189,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F9323ADC2920895600EEF1C6 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				F9323ADD2920897500EEF1C6 /* CellValueType.swift */,
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1281,7 +1270,7 @@
 			);
 			name = "Pods-AsposeCellsSwift_Tests";
 			productName = Pods_AsposeCellsSwift_Tests;
-			productReference = E4C4AE45C9696E92452BC68ECE283FF5 /* Pods_AsposeCellsSwift_Tests.framework */;
+			productReference = E4C4AE45C9696E92452BC68ECE283FF5 /* Pods-AsposeCellsSwift_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		946335E05E98493FA5420D8043A6E925 /* AsposeCellsCloud */ = {
@@ -1321,7 +1310,7 @@
 			);
 			name = "Pods-AsposeCellsSwift_Example";
 			productName = Pods_AsposeCellsSwift_Example;
-			productReference = 3369B961AD4FD138C38B66F8B63DBE1C /* Pods_AsposeCellsSwift_Example.framework */;
+			productReference = 3369B961AD4FD138C38B66F8B63DBE1C /* Pods-AsposeCellsSwift_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -1350,14 +1339,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
-				TargetAttributes = {
-					909EB5AF8D5B6706BBEE20C6E95C7E0F = {
-						LastSwiftMigration = 1330;
-					};
-					D21162BAE7E7CE6C16F32DC42A1C5E75 = {
-						LastSwiftMigration = 1330;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1425,7 +1406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				570FA1F9DA80FCDB8241667D50FFB4F8 /* Pods-AsposeCellsSwift_Tests-dummy.m in Sources */,
-				F9323AE02920897500EEF1C6 /* CellValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1435,7 +1415,6 @@
 			files = (
 				A90DE800E402DAEE1E064FF0E9485AE4 /* AsposeCellsSwift.swift in Sources */,
 				6A0DA7760987E97102FC6D2CB7D786BB /* AsposeCellsSwift-dummy.m in Sources */,
-				F9323ADE2920897500EEF1C6 /* CellValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1444,7 +1423,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D333E7F17D43E4F1683E78A597B34E /* Pods-AsposeCellsSwift_Example-dummy.m in Sources */,
-				F9323ADF2920897500EEF1C6 /* CellValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2035,7 +2013,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -2047,7 +2026,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2070,7 +2048,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2084,7 +2061,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2107,8 +2083,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2121,7 +2095,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2144,8 +2117,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2223,7 +2194,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2246,7 +2216,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

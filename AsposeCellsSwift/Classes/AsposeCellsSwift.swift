@@ -138,13 +138,10 @@ open class AsposeCellsSwift {
     // MARK: - Cell
 
     @discardableResult
-    public func setCellValue(fileName: String, sheetName: String, cellName: String, value: String, valueType: CellValueType? = .string, formula: String? = nil) async throws -> CellResponse? {
+    public func setCellValue(fileName: String, sheetName: String, cellName: String, value: String, cellValueType: String? = "string", formula: String? = nil) async throws -> CellResponse? {
         return try await withCheckedThrowingContinuation({ continuation in
 
-            // If not value type set, assing string by default
-            let cellValueType: CellValueType = valueType ?? .string
-
-            CellsAPI.cellsPostWorksheetCellSetValue(name: fileName, sheetName: sheetName, cellName: cellName, value: value, type: cellValueType.rawValue, formula: formula, folder: nil, storageName: nil) { data, error in
+            CellsAPI.cellsPostWorksheetCellSetValue(name: fileName, sheetName: sheetName, cellName: cellName, value: value, type: cellValueType, formula: formula, folder: nil, storageName: nil) { data, error in
                 if let error = error {
                     continuation.resume(throwing: error)
                 } else {

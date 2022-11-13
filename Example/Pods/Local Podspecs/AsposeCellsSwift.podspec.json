@@ -20,7 +20,7 @@
     "ios": "13.0"
   },
   "swift_versions": "5.2",
-  "source_files": "AsposeCellsSwift/Classes/**/*",
+  "source_files": "AsposeCellsSwift/**/*",
   "dependencies": {
     "AsposeCellsCloud": [
       "~> 21.7"
